@@ -1,4 +1,3 @@
-# Netflix-Data-Visualization
 # Netflix Data Visualization
 
 A small data-visualization project that loads the Netflix titles dataset, performs minimal cleaning, and generates several matplotlib charts to explore content types, ratings, durations, release-year trends, and top producing countries.
