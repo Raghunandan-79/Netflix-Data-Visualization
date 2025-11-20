@@ -26,17 +26,22 @@ pip install pandas matplotlib
 
 ## Usage
 1. Place the Netflix CSV dataset locally.
-2. Create a Python script (for example `visualize.py`) that reads the CSV, performs the cleaning, and saves the figures.
-3. Update the script to point to your dataset path and run:
+2. Create a Jupyter notebook (for example `visualize.ipynb`) or a small project that reads the CSV, performs the cleaning, and saves the figures. Examples:
+   - Notebook: open with `jupyter notebook` or `jupyter lab`, run the cells that load and clean the data, then plot. Use `plt.savefig('figure.png')` to persist charts alongside inline display.
+   - Project: create a project folder with a script (e.g., `visualize.py`) or package that contains data-loading, cleaning, and plotting functions. Include a `requirements.txt` if desired.
+3. Update the notebook or script to point to your dataset path and run:
 ```
+# Notebook: run cells in Jupyter
+# Project: from the project folder
 python visualize.py
 ```
-The PNG files listed above will be created in the current working directory.
+The PNG files listed above will be created in the current working directory (or displayed inline in the notebook).
 
 ## Notes
-- The script assumes movie durations are stored as strings ending with "min" and converts them to integers before plotting.
+- The notebook/project assumes movie durations are stored as strings ending with "min" and converts them to integers before plotting.
 - The dataset is filtered to remove rows with missing values in the key columns used for plotting.
 - Adjust figure sizes, colors, and bin counts as needed for presentation.
 
 ## License
 Open source — feel free to reuse and adapt.
+
