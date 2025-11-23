@@ -39,7 +39,7 @@ The PNG files listed above will be created in the current working directory (or 
 ## Notes
 - The notebook/project assumes movie durations are stored as strings ending with "min" and converts them to integers before plotting.
 - The dataset is filtered to remove rows with missing values in the key columns used for plotting.
-- Adjust figure sizes, colors, and bin counts as needed for presentation.
+- Adjust figure sizes, colors, and bin counts as needed for presentation
 
 ## License
 Open source — feel free to reuse and adapt.
